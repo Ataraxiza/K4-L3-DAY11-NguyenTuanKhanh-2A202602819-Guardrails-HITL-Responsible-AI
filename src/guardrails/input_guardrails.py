@@ -113,7 +113,7 @@ def topic_filter(user_input: str) -> InputStatus:
         if str(topic).lower() in input_lower:
             return "ALLOW"
 
-    # 3. No allowed banking topic -> off-topic.
+    # 3. No allowed banking topic -> off-topic
     return "BLOCK"
 
 
